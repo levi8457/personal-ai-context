@@ -6,7 +6,7 @@
 
 - 文件名使用英文小写加连字符，例如 `code-review.md`
 - 模板中的占位符统一写作 `<待填>`
-- 体验日志模板不在本目录，见 [`logs/trae-windows/TEMPLATES.md`](../logs/trae-windows/TEMPLATES.md)
+- 体验日志模板不在本目录，见 [`logs/TEMPLATES.md`](../logs/TEMPLATES.md)
 
 ## 状态
 

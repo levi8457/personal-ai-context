@@ -20,7 +20,7 @@ tags: [跨agent反馈, 文档同步, 脱敏, 体验日志, claude-code]
 ## 2. 任务与约束
 
 - 仓库为私有，仅 SSH 可用；匿名 WebFetch 与网页抓取均返回 404。
-- 日志格式以 `logs/trae-windows/TEMPLATES.md` 为准（题面写作 `TEMPLATE.md`，仓库内实际文件名为复数形式）。
+- 日志格式以 `logs/TEMPLATES.md` 为准（当时位于 `logs/trae-windows/TEMPLATES.md`；题面写作 `TEMPLATE.md`）。
 - 仓库规范要求脱敏；服务器 IP 经用户确认替换为 `<SERVER_IP>`。
 - 提交遵循 Conventional Commits，推送目标为 `origin/main`。
 
@@ -63,7 +63,7 @@ tags: [跨agent反馈, 文档同步, 脱敏, 体验日志, claude-code]
 ## 5. 改进建议
 
 - **对 Agent**：同步跨 Agent 文档前先做三件事——定位目录、扫描敏感信息、检查失效链接。
-- **对仓库**：把 `logs/TEMPLATES.md` 上移到 `logs/` 根目录，供各平台目录共用，避免 `trae-windows/TEMPLATES.md` 这种单点路径。
+- **对仓库**：已把模板从 `logs/trae-windows/TEMPLATES.md` 上移到 `logs/TEMPLATES.md`，供各平台目录共用。
 - **对仓库**：补齐反馈中引用的 `06-preferences/communication-style.md`、`07-quick-reference/session-start-checklist.md`、`08-reports/` 等文件，否则链接长期失效。
 - **对用户**：明确服务器 IP 是否长期入库；若允许，建议只在私有仓库保留，并在 README 标注访问边界。
 
